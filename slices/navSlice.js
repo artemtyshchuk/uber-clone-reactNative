@@ -27,7 +27,7 @@ export const { setOrigin, setDestinaton, setTrevelTimeInformation } =
 
 //Selectors
 
-export const selectOrogin = (state) => state.nav.origin;
+export const selectOrigin = (state) => state.nav.origin;
 export const selectDesctination = (state) => state.nav.destination;
 export const selectTrevelTimeInformation = (state) =>
   state.nav.trevelTimeInformation;

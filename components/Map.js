@@ -16,6 +16,9 @@ const Map = () => {
   const mapRef = useRef(null);
   const dispatch = useDispatch();
 
+  console.log(origin);
+  console.log(`aha${destination}`);
+
   useEffect(() => {
     if (!origin || !destination) return;
 
